@@ -31,7 +31,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 "Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/winmanager'
 " plugin from http://vim-scripts.org/vim/scripts.html
@@ -158,10 +158,10 @@ endfunction
 nmap gcs :call AddCscope()<CR><CR>
 
 "If there is the cscope.out file, add it
-let cscope_out_file = 'cscope.out'
-if filereadable(cscope_out_file)
-	cs add cscope.out
-endif
+"let cscope_out_file = 'cscope.out'
+"if filereadable(cscope_out_file)
+"	cs add cscope.out
+"endif
 
 "Define the hat key to trigger the cs command
 " find the symbol
